@@ -25,7 +25,7 @@ SampleMailApp::Application.configure do
     authentication: "plain", 
     enable_starttls_auto: true,
     user_name: "muneeb.test1", 
-    password: "pub433mxxr"
+    password: "password"
   }
 
   config.action_mailer.default_url_options = {host: "localhost:3000", :only_path => true}
